@@ -1,8 +1,8 @@
 import React from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import injectSheet from 'react-jss'
 
-import styles from './App.styles';
+import 'normalize.css';
+import './App.css';
 
 import Home from './scenes/Home';
 import Fryderyk from './scenes/Fryderyk';
@@ -24,4 +24,4 @@ const App = () => (
   </Router>
 );
 
-export default injectSheet(styles)(App);
+export default App;
