@@ -6,13 +6,18 @@ import styles from './Slide.styles';
 
 import Hero from '../../../components/Hero';
 
-const Slide = ({ classes, scene, title }) => (
-  <article className={classes.content}>
-    <Hero scene={scene} title={title}>aa</Hero>
-  </article>
-);
+class Slide extends React.Component {
+  render() {
+    const { classes, scene, title, handleNext } = this.props;
+
+    return <article className={`slide ${scene} ${classes.content}`} onClick={handleNext}>
+      <Hero scene={scene} title={title}></Hero>
+    </article>;
+  }
+};
 
 Slide.propTypes = {
+  index: PropTypes.number.isRequired,
   classes: PropTypes.object.isRequired,
   scene: PropTypes.string.isRequired,
   title: PropTypes.string.isRequired
