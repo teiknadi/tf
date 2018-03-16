@@ -7,7 +7,17 @@ const styles = {
     lineHeight: '1.025',
     color: '#fbfbfb',
     fontWeight: 500,
-  }
+
+    '&:before': {
+      content: '""',
+      position: 'absolute',
+      left: '-105px',
+      top: '23px',
+      width: '66px',
+      height: '6px',
+      background: '#fbfbfb',
+    }
+  },
 };
 
 export default styles;

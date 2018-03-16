@@ -17,7 +17,7 @@ class Home extends React.Component {
 
     this.state = {
       active: 0,
-      duration: .6,
+      duration: .8,
       carouselHeight: 0,
       carouselWidth: 0,
       windowWidth: 0,

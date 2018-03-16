@@ -2,17 +2,17 @@ import React, { Fragment } from 'react';
 import PropTypes from 'prop-types';
 import injectSheet from 'react-jss';
 
-import styles from './Intro.styles';
+import styles from './Title.styles';
 
-const Intro = ({ classes, body }) => (
-  <article className={classes.content}>{body.split('\n').map((item, key) => {
+const Title = ({ classes, body }) => (
+  <h1 className={classes.content}>{body.split('\n').map((item, key) => {
     return <Fragment key={key}>{item}<br/></Fragment>
-  })}</article>
+  })}</h1>
 );
 
-Intro.propTypes = {
+Title.propTypes = {
   classes: PropTypes.object.isRequired,
   body: PropTypes.string.isRequired
 };
 
-export default injectSheet(styles)(Intro);
+export default injectSheet(styles)(Title);

@@ -6,15 +6,17 @@ import { Link } from 'react-router-dom';
 import styles from './Hero.styles';
 
 import Intro from './Intro';
+import Title from './Title';
 
 const Hero = ({ classes, children, scene, title, intro, route }) => {
   const Hero = (
     <div className={classes.cover}>
       <div className={classes.container}>
         <div className={[classes.lane, classes.firstLane].join(' ')}>
-          { intro && <Intro body={intro}/>}
+          { intro && <Intro body={intro}/> }
         </div>
         <div className={classes.lane}>
+          { title && <Title body={title}/> }
         </div>
         <div className={classes.lane}>
         </div>
