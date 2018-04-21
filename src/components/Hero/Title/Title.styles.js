@@ -1,6 +1,8 @@
 const styles = {
   content: {
     position: 'absolute',
+    top: '384px',
+    margin: 0,
     width: '730px',
     fontFamily: 'DIN Pro Condensed',
     fontSize: '4.65em',

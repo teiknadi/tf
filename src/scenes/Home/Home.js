@@ -153,39 +153,70 @@ class Home extends React.Component {
       {
         scene: "Home",
         title: "",
+        description: "",
         intro: `WE WERE DARE ENOUGH
-       TO MAKE EVERYTHING VERY VERY SIMPLE
-       AND STRAIGHTFORWARD. WE WILL ALWAYS
-       REMEMBER, THAT SIMPLE IS AND WILL BE
-       BIG THING`
+        TO MAKE EVERYTHING VERY VERY SIMPLE
+        AND STRAIGHTFORWARD. WE WILL ALWAYS
+        REMEMBER, THAT SIMPLE IS AND WILL BE
+        BIG THING`
       },
       {
         scene: "Fryderyk",
         title: "FRYDERYK",
+        description: `Lorem ipsum dolor sit amet, consectetur
+        adipiscing elit, set du eidoums temporeo
+        incidudnt ut labor et delor magna alique
+        elsemo tempor.
+        
+        consectetur`,
         intro: "",
         route: ROUTES.FRYDERYK
       },
       {
         scene: "ArtsRepublic",
         title: "ARTS REPUBLIC",
+        description: `Lorem ipsum dolor sit amet, consectetur
+        adipiscing elit, set du eidoums temporeo
+        incidudnt ut labor et delor magna alique
+        elsemo tempor.
+        
+        consectetur`,
         intro: "",
         route: ROUTES.ARTS_REPUBLIC
       },
       {
         scene: "RMVP",
         title: "RMVP",
+        description: `Lorem ipsum dolor sit amet, consectetur
+        adipiscing elit, set du eidoums temporeo
+        incidudnt ut labor et delor magna alique
+        elsemo tempor.
+        
+        consectetur`,
         intro: "",
         route: ROUTES.RMVP
       },
       {
         scene: "CommaOil",
         title: "COMMA OIL",
+        description: `Lorem ipsum dolor sit amet, consectetur
+        adipiscing elit, set du eidoums temporeo
+        incidudnt ut labor et delor magna alique
+        elsemo tempor.
+        
+        consectetur`,
         intro: "",
         route: ROUTES.COMMA_OIL
       },
       {
         scene: "N42CMS",
         title: "NETRO42 CMS",
+        description: `Lorem ipsum dolor sit amet, consectetur
+        adipiscing elit, set du eidoums temporeo
+        incidudnt ut labor et delor magna alique
+        elsemo tempor.
+        
+        consectetur`,
         intro: "",
         route: ROUTES.N42_CMS
       },
@@ -201,6 +232,7 @@ class Home extends React.Component {
             index={key}
             scene={item.scene}
             title={item.title}
+            description={item.description}
             intro={item.intro}
             route={item.route}
           />
