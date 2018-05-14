@@ -1,8 +1,6 @@
 html, body, #root {
-  height: 100%;
   margin: 0;
   padding: 0;
-  overflow: hidden;
 }
 
 body {
@@ -17,5 +15,4 @@ a {
 
 #root {
   min-width: 968px;
-  min-height: 750px;
 }
