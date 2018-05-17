@@ -7,6 +7,7 @@ import styles from './Paragraph.styles';
 const Paragraph = ({
   text,
   classes,
+  hasCross, // eslint-disable-line no-unused-vars
   className,
 }) => (
   <p
@@ -18,6 +19,7 @@ const Paragraph = ({
 
 Paragraph.propTypes = {
   text: PropTypes.string,
+  hasCross: PropTypes.bool,
   classes: PropTypes.object,
   className: PropTypes.string,
 };
@@ -26,6 +28,7 @@ Paragraph.defaultProps = {
   text: '',
   classes: {},
   className: '',
+  hasCross: false,
 };
 
 export default injectSheet(styles)(Paragraph);
