@@ -2,6 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 import injectSheet from 'react-jss';
+import { Parallax } from 'react-scroll-parallax';
 import ColumnText from '../ColumnText';
 import Heading from '../Heading';
 import styles from './Content.styles';
@@ -14,22 +15,27 @@ const Content = ({
   underline,
   className,
   offsetLeft,
+  hasHeadingCross,
   textColumnWidth,
+  ...parallaxOptions,
 }) => (
-  <div className={[classes.wrapper, className].join(' ')}>
-    <Heading
-      size={size}
-      text={title}
-      className={classes.title}
-      underline={underline}
-    />
-    <ColumnText
-      className={classes.text}
-      text={text}
-      offsetLeft={offsetLeft}
-      width={textColumnWidth}
-    />
-  </div>
+  <Parallax {...parallaxOptions}>
+    <div className={[classes.wrapper, className].join(' ')}>
+      <Heading
+        size={size}
+        text={title}
+        className={classes.title}
+        underline={underline}
+        hasCross={hasHeadingCross}
+      />
+      <ColumnText
+        className={classes.text}
+        text={text}
+        offsetLeft={offsetLeft}
+        width={textColumnWidth}
+      />
+    </div>
+  </Parallax>
 );
 
 Content.propTypes = {
@@ -43,6 +49,7 @@ Content.propTypes = {
   className: PropTypes.string,
   underline: PropTypes.bool,
   offsetLeft: PropTypes.number,
+  hasHeadingCross: PropTypes.bool,
   textColumnWidth: PropTypes.string,
 };
 
@@ -54,6 +61,7 @@ Content.defaultProps = {
   size: '2.375em',
   underline: true,
   offsetLeft: 0,
+  hasHeadingCross: false,
   textColumnWidth: '20%',
 };
 

@@ -6,17 +6,21 @@ import styles from './Image.styles';
 
 import { Parallax } from 'react-scroll-parallax';
 
-const Image = (props) => {
-  return (
-    <Parallax {...props}>
-      <img
-        src={props.src}
-        alt={props.alt}
-        className={props.classes.image}
-      />
-    </Parallax>
-  );
-};
+const Image = ({
+  src,
+  alt,
+  classes,
+  ...parallaxOptions
+}, context) => (
+  <Parallax {...parallaxOptions}>
+    <img
+      src={src}
+      alt={alt}
+      className={classes.image}
+      onLoad={context.parallaxController.update}
+    />
+  </Parallax>
+);
 
 Image.propTypes = {
   src: PropTypes.string,
@@ -28,6 +32,10 @@ Image.defaultProps = {
   src: '',
   alt: '',
   classes: {},
+};
+
+Image.contextTypes = {
+  parallaxController: PropTypes.object.isRequired,
 };
 
 export default injectSheet(styles)(Image);

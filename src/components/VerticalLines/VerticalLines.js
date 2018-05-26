@@ -1,4 +1,4 @@
-import React  from 'react';
+import React from 'react';
 import PropTypes from 'prop-types';
 
 import injectSheet from 'react-jss';
@@ -26,9 +26,7 @@ const VerticalLines = ({
       </Container>
     </div>
     <div className={classes.pageWrapper}>
-      <Container>
-        {children}
-      </Container>
+      {children}
     </div>
   </div>
 );

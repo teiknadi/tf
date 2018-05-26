@@ -22,7 +22,7 @@ const Section3 = ({
         textColumnWidth="25%"
       />
 
-      <ImageSection/>
+      <ImageSection />
     </Parallax>
   </div>
 );

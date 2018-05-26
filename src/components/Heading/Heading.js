@@ -24,6 +24,7 @@ Heading.propTypes = {
   text: PropTypes.string,
   size: PropTypes.string, // eslint-disable-line react/no-unused-prop-types
   color: PropTypes.string, // eslint-disable-line react/no-unused-prop-types
+  hasCross: PropTypes.bool, // eslint-disable-line react/no-unused-prop-types
   classes: PropTypes.object,
   underline: PropTypes.bool, // eslint-disable-line react/no-unused-prop-types
   className: PropTypes.string,
@@ -33,6 +34,7 @@ Heading.defaultProps = {
   text: '',
   classes: {},
   className: '',
+  hasCross: false,
   size: '2.375em',
   underline: false,
   color: colors.black,
