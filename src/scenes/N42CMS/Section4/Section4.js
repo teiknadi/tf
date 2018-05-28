@@ -20,11 +20,14 @@ const Section4 = ({
       <Image
         src={clothesBoxImg}
         offsetYMin={-50}
-        offsetYMax={50}
+        offsetYMax={20}
       />
     </div>
     <div className={classes.right}>
-      <Parallax offsetYMin={-70} offsetYMax={70}>
+      <Parallax
+        offsetYMin={-100}
+        offsetYMax={20}
+      >
         <div>
           <Content
             title={title}

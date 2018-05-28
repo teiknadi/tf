@@ -1,6 +1,6 @@
 const styles = {
   wrapper: {
-    padding: '200px 0',
+    // padding: '200px 0',
     display: 'flex',
     justifyContent: 'space-between',
   },

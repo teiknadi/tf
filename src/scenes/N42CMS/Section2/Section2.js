@@ -20,13 +20,16 @@ const Section2 = ({
       <Image
         src={textEditorUrl}
         className={classes.textEditor}
-        offsetYMin={-100}
-        offsetYMax={100}
+        offsetYMin={-20}
+        offsetYMax={0}
       />
     </div>
 
     <div className={classes.rightColumn}>
-      <Parallax offsetYMin={-50} offsetYMax={50}>
+      <Parallax
+        offsetYMin={-40}
+        offsetYMax={20}
+      >
         <Content
           text={text}
           title={title}

@@ -18,32 +18,32 @@ const Section1 = ({
   <div className={classes.section}>
     <Image
       src={stickyNoteImg}
+      className={classes.column}
       offsetYMin={-100}
-      offsetYMax={100}
-      className={[classes.column, classes.stickyNoteBox].join(' ')}
+      offsetYMax={0}
     />
     <Image
       src={quickUploadImg}
-      offsetYMin={-50}
-      offsetYMax={50}
       className={classes.column}
+      offsetYMin={0}
+      offsetYMax={50}
     />
     <Image
       src={besSellersImg}
-      offsetYMin={-100}
-      offsetYMax={100}
       className={classes.column}
+      offsetYMin={-200}
+      offsetYMax={0}
     />
     <div className={classes.column}>
       <NewProduct
-        offsetYMin={-50}
-        offsetYMax={50}
+        offsetYMin={-30}
+        offsetYMax={30}
       />
       <Image
         src={statsImg}
-        offsetYMin={-70}
-        offsetYMax={70}
         className={classes.statsBox}
+        offsetYMin={-15}
+        offsetYMax={15}
       />
     </div>
   </div>

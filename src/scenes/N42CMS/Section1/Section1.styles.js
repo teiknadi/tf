@@ -8,9 +8,6 @@ const styles = {
     width: '19.28%',
     paddingRight: '0.72%',
   },
-  stickyNoteBox: {
-    top: '300px',
-  },
 };
 
 export default styles;

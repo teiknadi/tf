@@ -2,7 +2,7 @@ import { defaultColumnWidth } from '../../../styles/constants';
 
 const styles = {
   wrapper: {
-    padding: '100px 0',
+    // padding: '100px 0',
     display: 'flex',
     justifyContent: 'space-between',
   },

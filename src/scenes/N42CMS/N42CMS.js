@@ -38,8 +38,6 @@ const N42CMS = ({
         title={t('n42Cms.heading')}
         className={classes.section1}
         textColumnWidth="25%"
-        offsetYMin={-70}
-        offsetYMax={50}
       />
 
       <Content
@@ -47,8 +45,6 @@ const N42CMS = ({
         text={t('n42Cms.letsDesign.col1')}
         className={classes.section2}
         textColumnWidth="25%"
-        offsetYMin={-70}
-        offsetYMax={50}
       />
 
       <Section1 />
@@ -57,12 +53,12 @@ const N42CMS = ({
         position="right"
       />
 
-      <Parallax offsetYMin={-70} offsetYMax={50}>
-        <Paragraph
-          text={t('n42Cms.bigParagraph')}
-          className={classes.bigParagraph}
-        />
-      </Parallax>
+      <Paragraph
+        text={t('n42Cms.bigParagraph')}
+        className={classes.bigParagraph}
+        offsetYMin={-50}
+        offsetYMax={50}
+      />
 
       <Section2
         text={t('n42Cms.secondSection.text')}
