@@ -2,6 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 import injectSheet from 'react-jss';
+import { Parallax } from 'react-scroll-parallax';
 import styles from './Paragraph.styles';
 
 const Paragraph = ({
@@ -9,12 +10,15 @@ const Paragraph = ({
   classes,
   hasCross, // eslint-disable-line no-unused-vars
   className,
+  ...parallaxOptions,
 }) => (
-  <p
-    className={[classes.text, className].join(' ')}
-  >
-    {text}
-  </p>
+  <Parallax {...parallaxOptions}>
+    <p
+      className={[classes.text, className].join(' ')}
+    >
+      {text}
+    </p>
+  </Parallax>
 );
 
 Paragraph.propTypes = {

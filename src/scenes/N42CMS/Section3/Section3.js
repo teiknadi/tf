@@ -13,7 +13,10 @@ const Section3 = ({
   classes,
 }) => (
   <div className={classes.wrapper}>
-    <Parallax offsetYMin={-100} offsetYMax={100}>
+    <Parallax
+      offsetYMin={-70}
+      offsetYMax={0}
+    >
       <Content
         text={text}
         size="1.5em"

@@ -18,7 +18,10 @@ const Section5 = ({
 }) => (
   <div className={classes.wrapper}>
     <div className={classes.left}>
-      <Parallax offsetYMin={-50} offsetYMax={50}>
+      <Parallax
+        offsetYMin={-300}
+        offsetYMax={100}
+      >
         <div>
           <Content
             title={title}
@@ -36,7 +39,10 @@ const Section5 = ({
     </div>
 
     <div className={classes.right}>
-      <Parallax offsetYMin={-50} offsetYMax={50}>
+      <Parallax
+        offsetYMin={-100}
+        offsetYMax={20}
+      >
         <Image
           src={leftColTopImage}
           className={classes.topImage}
