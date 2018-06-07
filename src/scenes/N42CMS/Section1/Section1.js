@@ -17,33 +17,33 @@ const Section1 = ({
 }) => (
   <div className={classes.section}>
     <Image
-      src={stickyNoteImg}
-      className={classes.column}
-      offsetYMin={-100}
       offsetYMax={0}
+      offsetYMin={-100}
+      src={stickyNoteImg}
+      imageClassName={classes.column}
     />
     <Image
-      src={quickUploadImg}
-      className={classes.column}
       offsetYMin={0}
       offsetYMax={50}
+      src={quickUploadImg}
+      imageClassName={classes.column}
     />
     <Image
-      src={besSellersImg}
-      className={classes.column}
-      offsetYMin={-200}
       offsetYMax={0}
+      offsetYMin={-200}
+      src={besSellersImg}
+      imageClassName={classes.column}
     />
     <div className={classes.column}>
       <NewProduct
-        offsetYMin={-30}
         offsetYMax={30}
+        offsetYMin={-30}
       />
       <Image
         src={statsImg}
-        className={classes.statsBox}
-        offsetYMin={-15}
         offsetYMax={15}
+        offsetYMin={-15}
+        imageClassName={classes.statsBox}
       />
     </div>
   </div>

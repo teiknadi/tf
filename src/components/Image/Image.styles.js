@@ -1,6 +1,6 @@
 const styles = {
   image: {
-    width: '100%',
+    width: props => props.responsive ? '100%' : 'auto',
     height: 'auto',
   }
 };
