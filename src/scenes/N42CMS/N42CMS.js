@@ -2,7 +2,6 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import injectSheet from 'react-jss';
 import { compose } from 'ramda';
-import { Parallax } from 'react-scroll-parallax';
 
 import withTranslate from '../../hoc/withTranslate';
 

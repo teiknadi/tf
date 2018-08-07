@@ -70,5 +70,40 @@
         }
       }
     }
+  },
+  "fryderyk": {
+    "section1": {
+      "heading": "About",
+      "col1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et nisl congue, sodales mauris vel, fermentum magna. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
+      "col2": "Ut molestie est a viverra fringilla. Curabitur nec augue velit. Duis maximus, ipsum ut consequat condimentum, massa arcu sagittis erat, sit amet aliquet erat sapien sed odio."
+    },
+    "section2": {
+      "colRight": {
+        "heading": "let's design",
+        "col1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et nisl congue, sodales mauris vel, fermentum magna. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas."
+      },
+      "colLeft": {
+        "heading": ". home",
+        "col1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et nisl congue, sodales mauris vel, fermentum magna. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas."
+      }
+    },
+    "section3": {
+      "s1": {
+        "heading": "monthly and weekly view",
+        "col1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et nisl congue, sodales mauris vel, fermentum magna. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas."
+      },
+      "s2": {
+        "heading": "monthly and weekly view",
+        "col1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et nisl congue, sodales mauris vel, fermentum magna. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas."
+      }
+    },
+    "section4": {
+      "heading": ". home",
+      "col1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et nisl congue, sodales mauris vel, fermentum magna. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas."
+    },
+    "section5": {
+      "heading": ". home",
+      "col1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et nisl congue, sodales mauris vel, fermentum magna. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas."
+    }
   }
 }

@@ -1,8 +1,9 @@
 import React from 'react';
+import { getDisplayName } from '../../helpers/components';
 import I18nContext from '../../i18n/Context';
 
 const withTranslate = (WrappedComponent) => {
-  const TranslatedComponent = props => (
+  const WithTranslate = props => (
     <I18nContext.Consumer>
       {translate => (
         <WrappedComponent
@@ -13,7 +14,9 @@ const withTranslate = (WrappedComponent) => {
     </I18nContext.Consumer>
   );
 
-  return TranslatedComponent;
+  WithTranslate.displayName = `WithTranslate(${getDisplayName(WrappedComponent)})`;
+
+  return WithTranslate;
 
 };
 

@@ -66,9 +66,9 @@ const Section3 = ({
       <div className={classes.col}>
         <Image
           src={chartImage}
-          className={classes.chartImage}
           offsetYMin={-50}
           offsetYMax={50}
+          imageClassName={classes.chartImage}
         />
 
         <Content

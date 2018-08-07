@@ -6,6 +6,17 @@ import { colors } from '../../styles/constants';
 import Container from '../Container/Container';
 import styles from './VerticalLines.styles';
 
+const getStartLeftValue = (counter) => {
+  switch (counter) {
+    case 1:
+      return 50;
+    case 2:
+      return 40;
+    default:
+      return 20;
+  }
+};
+
 const VerticalLines = ({
   color, // eslint-disable-line no-unused-vars
   classes,
@@ -20,7 +31,7 @@ const VerticalLines = ({
           <span
             key={item}
             className={classes.line}
-            style={{ left: `${(item + 1) * 20}%` }}
+            style={{ left: `${getStartLeftValue(counter) + (item * 20)}%` }}
           />
         ))}
       </Container>

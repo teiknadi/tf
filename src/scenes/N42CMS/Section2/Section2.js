@@ -18,10 +18,10 @@ const Section2 = ({
   <div className={classes.wrapper}>
     <div className={classes.leftColumn}>
       <Image
-        src={textEditorUrl}
-        className={classes.textEditor}
-        offsetYMin={-20}
         offsetYMax={0}
+        offsetYMin={-20}
+        src={textEditorUrl}
+        imageClassName={classes.textEditor}
       />
     </div>
 

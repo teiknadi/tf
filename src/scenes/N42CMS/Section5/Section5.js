@@ -45,7 +45,7 @@ const Section5 = ({
       >
         <Image
           src={leftColTopImage}
-          className={classes.topImage}
+          imageClassName={classes.topImage}
         />
 
         <Image

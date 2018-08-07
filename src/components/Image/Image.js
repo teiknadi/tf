@@ -10,13 +10,15 @@ const Image = ({
   src,
   alt,
   classes,
+  responsive,
+  imageClassName,
   ...parallaxOptions
 }, context) => (
   <Parallax {...parallaxOptions}>
     <img
       src={src}
       alt={alt}
-      className={classes.image}
+      className={[classes.image, imageClassName].join(' ')}
       onLoad={context.parallaxController.update}
     />
   </Parallax>
@@ -26,12 +28,16 @@ Image.propTypes = {
   src: PropTypes.string,
   alt: PropTypes.string,
   classes: PropTypes.object,
+  responsive: PropTypes.bool,
+  imageClassName: PropTypes.string,
 };
 
 Image.defaultProps = {
   src: '',
   alt: '',
   classes: {},
+  responsive: true,
+  imageClassName: '',
 };
 
 Image.contextTypes = {
