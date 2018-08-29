@@ -1,9 +1,8 @@
-import { compose } from 'ramda';
 import React from 'react';
 import PropTypes from 'prop-types';
 import injectSheet from 'react-jss';
-import VerticalLines from '../../components/VerticalLines/';
-import withTranslate from '../../hoc/withTranslate';
+
+import VerticalLines from '../../components/VerticalLines';
 import styles from './Fryderyk.styles';
 import Section1 from './Section1';
 import Section2 from './Section2';
@@ -12,7 +11,6 @@ import Section4 from './Section4';
 import Section5 from './Section5';
 
 const Fryderyk = ({
-  t,
   classes,
 }) => (
   <VerticalLines
@@ -29,16 +27,11 @@ const Fryderyk = ({
 );
 
 Fryderyk.propTypes = {
-  t: PropTypes.func,
   classes: PropTypes.object,
 };
 
 Fryderyk.defaultProps = {
-  t: () => {},
   classes: {},
 };
 
-export default compose(
-  withTranslate,
-  injectSheet(styles),
-)(Fryderyk);
+export default injectSheet(styles)(Fryderyk);
