@@ -2,15 +2,18 @@ import { compose } from 'ramda';
 import React from 'react';
 import PropTypes from 'prop-types';
 import withStyles from 'react-jss';
+
 import Container from '../../../components/Container';
 import Content from '../../../components/Content';
 import withTranslate from '../../../hoc/withTranslate';
+import TopImage from './TopImage';
+import BottomImage from './BottomImage';
 
 import styles from './Section1.styles';
 
 const Section1 = ({ t, classes, translationNamespace }) => (
   <Container>
-    <div className={classes.wrapper}>
+    <div className={classes.topWrapper}>
       <div className={classes.left}>
         <div className={classes.leftTextBoxWrapper}>
           <Content
@@ -34,6 +37,8 @@ const Section1 = ({ t, classes, translationNamespace }) => (
         />
       </div>
     </div>
+    <TopImage />
+    <BottomImage />
   </Container>
 );
 

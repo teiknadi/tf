@@ -1,5 +1,5 @@
 const styles = {
-  wrapper: {
+  topWrapper: {
     position: 'relative',
     display: 'flex',
     justifyContent: 'space-between',
@@ -17,6 +17,14 @@ const styles = {
   },
   leftTextBox: {
     marginLeft: '50%',
+  },
+  topImage: {
+    position: 'relative',
+    left: '-12.5%',
+  },
+  bottomImage: {
+    position: 'relative',
+    left: '15.6%',
   },
   greyBox: {
     backgroundColor: '#dcdcdc',
