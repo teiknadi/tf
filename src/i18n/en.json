@@ -1,4 +1,7 @@
 {
+  "defaults": {
+    "paragraph": "<span>we were</span> dare enough to make </br> everything very very simple </br>and straightforward. We will always remember, that simple is and will be </br>big thing."
+  },
   "n42Cms": {
     "heading": "About",
     "description": {
@@ -9,7 +12,7 @@
       "title": "let's design",
       "col1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et nisl congue, sodales mauris vel, fermentum magna. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas."
     },
-    "bigParagraph": "we were dare enough to make everything very very simple and straightforward. We will always remember, that simple is and will be big thing.",
+    "bigParagraph": "<span>we were</span> dare enough to make everything very very simple and straightforward. We will always remember, that simple is and will be big thing.",
     "secondSection": {
       "title": ". race",
       "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et nisl congue, sodales mauris vel, fermentum magna. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas."
@@ -47,7 +50,7 @@
         }
       }
     },
-    "paragraph": "we were dare enough to make everything very very simple and straightforward. We will always remember, that simple is and will be big thing.",
+    "paragraph": "<span>we were</span> dare enough to make everything very very simple and straightforward. We will always remember, that simple is and will be big thing.",
     "section3": {
       "colLeft": {
         "s1": {
@@ -116,6 +119,17 @@
         "heading": "Let's design",
         "col1": "Ut molestie est a viverra fringilla. Curabitur nec augue velit. Duis maximus, ipsum ut consequat condimentum, massa arcu sagittis erat, sit amet aliquet erat sapien sed odio."
       }
+    },
+    "section2": {
+      "left": {
+        "heading": "monthly and weekly view",
+        "col1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et nisl congue, sodales mauris vel, fermentum magna. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas."
+      },
+      "right": {
+        "heading": ". artists",
+        "col1": "Ut molestie est a viverra fringilla. Curabitur nec augue velit. Duis maximus, ipsum ut consequat condimentum, massa arcu sagittis erat, sit amet aliquet erat sapien sed odio."
+      },
+      "paragraph": "<span>we were</span> dare enough to make </br> everything very very simple </br>and straightforward. We will always remember, that simple is and will be </br>big thing."
     }
   }
 }

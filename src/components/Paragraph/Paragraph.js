@@ -10,14 +10,16 @@ const Paragraph = ({
   classes,
   hasCross, // eslint-disable-line no-unused-vars
   className,
+  hasHorizontalLine,
   ...parallaxOptions,
 }) => (
   <Parallax {...parallaxOptions}>
     <p
       className={[classes.text, className].join(' ')}
-    >
-      {text}
-    </p>
+      dangerouslySetInnerHTML={{
+        __html: text
+      }}
+    />
   </Parallax>
 );
 
@@ -26,6 +28,7 @@ Paragraph.propTypes = {
   hasCross: PropTypes.bool,
   classes: PropTypes.object,
   className: PropTypes.string,
+  hasHorizontalLine: PropTypes.bool,
 };
 
 Paragraph.defaultProps = {
@@ -33,6 +36,7 @@ Paragraph.defaultProps = {
   classes: {},
   className: '',
   hasCross: false,
+  hasHorizontalLine: true,
 };
 
 export default injectSheet(styles)(Paragraph);

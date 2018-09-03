@@ -19,7 +19,7 @@ const RMVP = ({
     className={classes.page}
   >
     <Section1 translationNamespace="rmvp.section1" />
-    {/*<Section2 translationNamespace="rmvp.section2" />*/}
+    <Section2 translationNamespace="rmvp.section2" />
     {/*<Section3 translationNamespace="rmvp.section3" />*/}
     {/*<Section4 translationNamespace="rmvp.section4" />*/}
   </VerticalLines>
