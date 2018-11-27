@@ -130,6 +130,10 @@
         "col1": "Ut molestie est a viverra fringilla. Curabitur nec augue velit. Duis maximus, ipsum ut consequat condimentum, massa arcu sagittis erat, sit amet aliquet erat sapien sed odio."
       },
       "paragraph": "<span>we were</span> dare enough </br> to make everything very very simple </br>and straightforward. We will always remember, that simple is and will be </br>big thing."
+    },
+    "section3": {
+      "heading": "monthly and weekly view",
+      "col1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et nisl congue, sodales mauris vel, fermentum magna. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas."
     }
   }
 }
