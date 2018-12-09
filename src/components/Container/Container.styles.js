@@ -5,6 +5,7 @@ const styles = {
     position: 'relative',
     height: '100%',
     maxWidth: defaultContainerWidth,
+    minWidth: defaultContainerWidth,
     margin: '0 auto',
   },
 };

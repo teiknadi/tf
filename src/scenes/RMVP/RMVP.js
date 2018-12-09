@@ -21,7 +21,7 @@ const RMVP = ({
     <Section1 translationNamespace="rmvp.section1" />
     <Section2 translationNamespace="rmvp.section2" />
     <Section3 translationNamespace="rmvp.section3" />
-    {/*<Section4 translationNamespace="rmvp.section4" />*/}
+    <Section4 translationNamespace="rmvp.section4" />
   </VerticalLines>
 );
 

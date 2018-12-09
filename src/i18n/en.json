@@ -134,6 +134,10 @@
     "section3": {
       "heading": "monthly and weekly view",
       "col1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et nisl congue, sodales mauris vel, fermentum magna. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas."
+    },
+    "section4": {
+      "heading": "artist",
+      "col1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et nisl congue, sodales mauris vel, fermentum magna. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas."
     }
   }
 }
