@@ -29,7 +29,6 @@ const Content = ({
         hasCross={hasHeadingCross}
       />
       <ColumnText
-        className={classes.text}
         text={text}
         offsetLeft={offsetLeft}
         width={textColumnWidth}

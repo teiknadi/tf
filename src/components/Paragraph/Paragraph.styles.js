@@ -8,6 +8,23 @@ const styles = {
     fontWeight: 'bold',
     color: '#000',
     position: 'relative',
+    width: '50%',
+
+    '& span': {
+      color: '#000'
+    },
+
+    '&:after': {
+      content: '""',
+      display: props => (props.hasHorizontalLine ? 'block' : 'none'),
+      position: 'absolute',
+      width: '50%',
+      height: '7px',
+      backgroundColor: '#fff',
+      top: '50%',
+      left: 0,
+      transform: 'translateY(-50%)'
+    },
 
     '&:before': {
       content: '""',
